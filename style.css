@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: #040404;
+    display:grid;
+    place-items: center;
+    min-height: 100vh;
+    font-family: cursive;
+    font-size:15px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+
+}
+.form form{
+    background: rgb(255, 251, 251);
+    width:250px;
+    height:300px;
+    box-shadow: 4px 4px 4px rgb(248, 245, 245);
+    border: 1px solid rgb(0,0,0,.2);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+}
+.form form input{
+    display:block;
+    margin:10px auto;
+    width:200px;
+    height:30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+input:focus{
+    outline:none;
+}
+::placeholder{
+    paddi0ng-left: 4px;
+
+}
+.submitbutton input[type='submit']{
+    background-color: rgb(31, 162, 228);
+    display: block;
+    cursor:pointer;
+    width:200px;
+    border-radius: 20px;
+    height:30px;
+    border:transparent;
+    color:#fff;
+    font-size: 16px;
+    transition: 1s;
+}
+.login{
+    text-decoration: underline;
+    color: blue;
+}
+.submitbutton input[type='submit']:hover{
+    transform: scale(1.12);
+}
+ video{
+    position:fixed;
+    right:0;
+   z-index:-1;
+
+}

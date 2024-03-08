@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compressor</title>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+
+
+<body >
+   
+    <div class="container">
+        
+       <!-- <video autoplay loop muted plays-inline id="theme1">
+           
+        </video>-->
+  
+        <div class="box">
+            <h1>Image Compressor</h1>
+            <input type="file" id="inputImage" accept="image/*" >
+            <button onclick="compressImage()">Compress Image</button>
+            <div class="result-box">
+                <h2>Original Image</h2>
+                <img id="originalImage" class="image">
+            </div>
+            <div class="result-box">
+                <h2>Compressed Image</h2>
+                <img id="compressedImage" class="image">
+            
+                <button onclick="downloadCompressedImage()">Download Compressed Image</button>
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+<script src="script.js"></script>
+</html>
